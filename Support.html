@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En produktsida för NeonTech med bilder, specifikationer och köpfunktioner-knapp.">
+    <meta name="keywords" content="Teknologi, Mobiltelefoner, Produkter, Webbshop, Köp online, NeonTech, Airbuds, Klockor, Bästa produkterna, Buy now, Telephones, Products, Watches, Technology, Best phones, Best quality">
+    <meta name="author" content="NeonTech">
+    <title>NeonTech - Support</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="192x192" href="bilder/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bilder/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bilder/favicon/favicon-316x16.png">
+    <link rel="manifest" href="bilder/favicon/site.webmanifest">
+</head>
+<body>
+    <div class="header">
+            <div class="rightheader">
+                <button id="themetoggle" data-i18n="themetoggle"><img src="bilder/nightmode.png" alt="night icon"></button>
+                <select id="language-select">
+                    <option value="sv">Svenska</option>
+                    <option value="en">English</option>
+                </select>
+                <!--<button class="shoppingicon" id="shoppingicon"><img src="bilder/shoppingbag.png" alt="buy icon"></button>-->
+            </div>
+
+
+        <div class="logotyp">
+        <img src="bilder/NeonTechsvart.png" alt="">
+        </div>
+
+        <div class="links">
+            <a href="NeonTechHome.html" data-i18n="home">Hem</a>
+            <a href="Products.html"  data-i18n="products">Produkter</a>
+            <a href="Support.html" data-i18n="support">Support</a>
+            <a href="Contact.html" data-i18n="contact">Kontakt</a>
+        </div>
+
+        <div class="menuheader" onclick="menutoggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        
+        <div class="dropdown-menu">
+            <a href="NeonTechHome.html" data-i18n="home">Hem</a>
+            <a href="Products.html" data-i18n="products">Produkter</a>
+            <a href="Support.html" data-i18n="support">Support</a>
+            <a href="Contact.html" data-i18n="contact">Kontakt</a>
+        </div>
+    </div>
+
+<div class="supportpage">
+        <h1>NeonTech Support </h1>
+    
+        <button type="button" class="collapsible" data-i18n="support_intro_button">Introduktion ↴</button>
+        <div class="content">
+            <h2 data-i18n="support_intro">Välkommen till NeonTechs supportsida</h2><br>
+            <p data-i18n="support_intro_text">Här hittar du lösningar på vanliga problem med våra produkter. Välj din produkt nedan för att få hjälp.</p>
+        </div>
+    
+        <button type="button" class="collapsible" data-i18n="support_alpha_button">NeonTech Alpha – Vanliga frågor & lösningar ↴</button>
+        <div class="content">
+            <h2 data-i18n="phone_not_charging">1. Min telefon laddar inte, vad ska jag göra?</h2><br>
+            <p data-i18n="phone_check_charger">✔ Kontrollera att du använder en original NeonCharge-laddare.</p><br>
+            <p data-i18n="phone_try_other_cable">✔ Testa en annan laddningskabel eller eluttag.</p><br>
+            <p data-i18n="phone_clean_port">✔ Rengör laddningsporten från damm.</p><br>
+            <p data-i18n="phone_restart">✔ Starta om telefonen.</p><br>
+            <h2 data-i18n="phone_not_starting">2. Telefonen startar inte, vad kan vara fel?</h2><br>
+            <p data-i18n="phone_force_restart">✔ Håll in strömbrytaren i 10 sekunder för att göra en tvångsomstart.</p><br>
+            <p data-i18n="phone_charge_15min">✔ Ladda telefonen i minst 15 minuter och försök igen.</p><br>
+            <p data-i18n="phone_contact_support">✔ Om inget fungerar, kontakta supporten.</p><br>
+        </div>
+    
+        <button type="button" class="collapsible" data-i18n="support_buds_button">NeonBuds Pro – Vanliga frågor & lösningar ↴</button>
+        <div class="content">
+            <h2 data-i18n="buds_not_connecting">1. Mina hörlurar ansluter inte till Bluetooth</h2><br>
+            <p data-i18n="buds_check_bluetooth">✔ Se till att Bluetooth är aktiverat på din enhet.</p><br>
+            <p data-i18n="buds_reset_case">✔ Lägg tillbaka hörlurarna i fodralet och ta ut dem igen.</p><br>
+            <p data-i18n="buds_factory_reset">✔ Återställ hörlurarna genom att hålla inne knappen på fodralet i 10 sekunder.</p><br>
+            <h2 data-i18n="buds_one_not_working">2. Ena hörluren fungerar inte</h2><br>
+            <p data-i18n="buds_check_charge">✔ Kontrollera att hörlurarna är <b>fulladdade.</b></p><br>
+            <p data-i18n="buds_reconnect">✔ Koppla från och para om hörlurarna via Bluetooth.</p><br>
+            <p data-i18n="buds_clean_contacts">✔ Rengör laddningskontakterna i fodralet.</p><br>
+        </div>
+    
+        <button type="button" class="collapsible" data-i18n="support_watch_button">NeonWatch X – Vanliga frågor & lösningar ↴</button>
+        <div class="content">
+            <h2 data-i18n="watch_not_syncing">1. Min klocka synkar inte med telefonen</h2><br>
+            <p data-i18n="watch_check_bluetooth">✔ Kontrollera att Bluetooth är på.</p><br>
+            <p data-i18n="watch_restart">✔ Starta om både klockan och telefonen.</p><br>
+            <p data-i18n="watch_reinstall_app">✔ Installera om NeonSync-appen och prova igen.</p><br>
+            <h2 data-i18n="watch_battery_drain">2. Batteriet laddas ur snabbt</h2><br>
+            <p data-i18n="watch_disable_features">✔ Stäng av onödiga funktioner som ständigt aktiv skärm.</p><br>
+            <p data-i18n="watch_update_software">✔ Se till att klockan kör den senaste programvaran.</p><br>
+            <p data-i18n="watch_lower_brightness">✔ Minska ljusstyrkan på skärmen.</p><br>
+        </div>
+    
+        <button type="button" class="collapsible" data-i18n="support_charge_button">NeonCharge – Vanliga frågor & lösningar ↴</button>
+        <div class="content">
+            <h2 data-i18n="charge_not_working">1. Min trådlösa laddare fungerar inte</h2><br>
+            <p data-i18n="charge_enable_wireless">✔ Se till att telefonen har trådlös laddning aktiverad.</p><br>
+            <p data-i18n="charge_check_power">✔ Kontrollera att laddaren är ansluten till ett fungerande eluttag.</p><br>
+            <p data-i18n="charge_adjust_position">✔ Justera telefonens position på laddaren.</p><br>
+        </div>
+    
+        <div class="seperator3"></div>
+        <h2 data-i18n="need_more_help">Behöver du ytterligare hjälp?</h2>
+        <p data-i18n="contact_support">Om ditt problem inte finns här, kontakta oss på support@neontech.com, besök vårt hjälpcenter eller kontakta oss via kontaktformuläret.</p>
+        <a href="Contact.html" data-i18n="formcontactus">Kontakta oss</a>
+</div>
+    
+
+<div class="bottomsep"></div>
+
+    <div class="footer">
+        <div class="copyright" data-i18n="copyright">Copyright © 2025 NeonTech. Alla rättigheter förbehålls.</div>
+        <div class="copyrightsmall" data-i18n="copyrightsmall">© 2025 NeonTech.</div>
+        <div class="footerright">
+            <a href="About.html" data-i18n="about">Om oss</a>
+            <a href="Integritypolicy.html" data-i18n="integrity">Integritetspolicy</a>
+    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

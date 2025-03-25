@@ -333,16 +333,15 @@ select:focus {
     text-align: center;
     background-color: #000002;
     height:65vh;
-    background-image: url("bilder/Produkter/NeontechAlpha/WideLongNeonTechAlpha3.png");
+    background-image: url("bilder/scrollimage/NeontechAlpha.jpeg");
     background-position: 50% 0%;
-    background-size: 100vh;
     background-repeat: no-repeat;
     transition: background-image 0.3s ease-in-out;
     font-family: poppins;
 }
 
 .product1home:hover{
-    background-image: url("bilder/Produkter/NeontechAlpha/WideLongNeonTechAlpha4.png");
+    background-image: url("bilder/scrollimage/NeontechAlpha2.png");
 }
 
 h1{
@@ -400,9 +399,8 @@ h2{
     text-align: center;
     background-color: #000002;
     height:65vh;
-    background-image: url("bilder/Produkter/NeontechLite/WideLongNeonTechLite2.png");
+    background-image: url("bilder/scrollimage/NeontechLite.png");
     background-position: 50% 0%;
-    background-size: 100vh;
     background-repeat: no-repeat;
     transition: background-image 0.3s ease-in-out;
     font-family: poppins;
@@ -411,7 +409,7 @@ h2{
 
 
 .product2home:hover{
-    background-image: url("bilder/Produkter/NeontechLite/WideLongNeonTechLite1.png");
+    background-image: url("bilder/scrollimage/NeontechLite2.png");
 }
 
 
